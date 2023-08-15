@@ -1,0 +1,18 @@
+tasks to be done-
+1. mandatory options to fill in form
+2. responsive
+3. url address issue
+4. Home page css issue   ✅
+5. pop up of successfully registered and redirected to index page after account creation
+
+
+6. javascript
+7. restful API video
+
+pop up on info pg that successfully registered
+pop up on login pg for error/invalid
+
+
+
+1250 x 800
+520 x 

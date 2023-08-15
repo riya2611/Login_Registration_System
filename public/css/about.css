@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.container{
+    height: 750px;
+    width: 100%;
+    background: rgba(0,0,0,0.5) url('https://blitzen.com/blog/wp-content/uploads/new-tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_container{
+    height: 500px;
+    width: 45%;
+    background-color: rgb(49, 49, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4) url('https://images.pexels.com/photos/1808329/pexels-photo-1808329.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-blend-mode: darken;
+}
+
+.info_container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.details{
+    height: 50%;
+    width: 70%;
+}
+.heading{
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.sub_heading{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_styling{
+    font-size: medium;
+    font-family:sans-serif;
+    font-weight: 3;
+}

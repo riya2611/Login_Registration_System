@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Form</title>
+    <link rel="shortcut icon" href="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios12-shortcuts-app-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+
+    
+    
+    {{!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'> --}}
+</head>
+<body> 
+    <div class="nav hide-nav-resp">
+        <div class="logo v-class-resp">
+            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios12-shortcuts-app-icon.png" alt="logo" height="40px">
+        </div>
+        <div class="nav-list v-class resp">
+
+            <li><a href = "about"> About </a></li>
+            <li><a href = "contact"> Contact Us </a></li>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="sub_container background">
+         <div class="info_container">
+            <div class="info_leftcontainer" >
+               
+                <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_afegnyxq.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px; padding-bottom: 80px; padding-left: 30px"  loop controls autoplay></lottie-player>
+            </div>
+            <div class="info_rightcontainer">
+                <div class="info">
+                    <div class="info_1" style="font-style: italic; color:white; font-size:30px;">Login & Registration Page</div>
+                    
+                    <div class="info_2" style="font-style: italic; color:white; font-size:medium;"><p>Already have an account, that's great!!</p>
+                    <p>Just Login to get started.</p>
+                    </div>
+                    <div class="button_login">
+                            <button style="background-color:black; font-size: 20px;font-style:italic;"><a href="/login" style="text-decoration:none; color:white">Log In</a></button>
+                    </div>
+
+                    <div class="info_3" style="font-style: italic; color:white; font-size:medium;"><p>Are you a new user?</p><p>Create an account to have an experience of this page.</p> </div>
+                    <div class="button_signup">
+                            <button style="background-color:black; font-size: 20px; font-style:italic;"><a href="/register" style="text-decoration: none; color:white">Sign Up</a></button>
+                    </div>
+                </div>
+            </div>
+         </div>
+    
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    {{!-- <script src = "/src/index_responsive.js"></script> --}}
+</body>
+</html>

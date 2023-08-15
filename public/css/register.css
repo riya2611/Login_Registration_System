@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.container{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    background: rgba(0, 0, 0, 0.5) url('https://blitzen.com/blog/wp-content/uploads/new-tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.sub_container{
+    height: 600px;
+    width: 65%;
+    background: rgba(0, 0 , 0 ,0.4) url('https://images.pexels.com/photos/1808329/pexels-photo-1808329.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.firstHalf{
+    height: 600px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display:block;
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.secondHalf{
+    height: 600px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_container{
+    height: 500px;
+    width: 80%;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.logo{
+    padding-bottom: 10px;
+}
+.person_info{
+    display: flex;
+    height: 65%;
+}
+.details{
+    /* display: flex; */
+    height: 65%;
+}
+
+#form{
+    height: 65%;
+    width: 10%;
+    background-color: yellow;
+}
+
+.details_firsthalf{
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.form-group1{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.form-group2{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+.form-control{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5cm;
+}
+
+.details_secondhalf{
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+}
+.btnRegister{
+    height: 50px;
+    width: 40%;
+    color: white; 
+    font-size:20px;
+    border-radius: 15px;
+    background-color: rgb(94, 94, 226);
+    /* background-color: rgb(109, 109, 217); */
+    
+}
+.account_creation{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
