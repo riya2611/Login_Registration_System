@@ -10,7 +10,7 @@ const Register = require("./models/registers");
 const { json } = require("express");
 const { log } = require("console");
 
-const port = process.env.port || 2000;
+const port = process.env.port || 5000;
 
 const static_path = path.join(__dirname, "../public");
 const template_path = path.join(__dirname, "../templates/views");
@@ -48,6 +48,10 @@ app.get("/submit", (req, res) => {
 app.get("/register", (req, res) => {
     res.render("register")
 });
+app.get("/sproduct", (req, res) => {
+    res.render("sproduct")
+});
+
 
 //creating new user in our database
 app.post("/", async(req, res) => {

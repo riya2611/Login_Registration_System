@@ -1,18 +1,155 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     overflow: hidden;
 }
 .container{
-    height: 750px;
+    /* height: 300%; */
+    height: 300%;
     width: 100%;
     background: rgba(0,0,0,0.5) url('https://blitzen.com/blog/wp-content/uploads/new-tech.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-blend-mode: darken;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    color: white;
+    display: block;
+}
+
+/* .background{
+    background: rgba(0, 0, 0, 0.5) url('https://blitzen.com/blog/wp-content/uploads/new-tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+} */
+.heading{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    font-family: "serif";
+    font-weight: bolder;
+    margin: 10px 5px 10px 10px;
+}
+
+.feature{
+    height: 270px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product1{
+    height: 400px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-p1{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    /* padding: 25px 15px; */
+    box-shadow: 20px 20px 34px white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(128, 134, 214);
+}
+
+.feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.section-p1{
+    padding: 20px 60px;
+}
+.section-p1 .pro .cart{
+    color: white;
+    right: 5px;
+    size: 2px;
+    /* inherits: right; */
+    /* position: absolute; */
+}
+
+/* #product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 15px 0;
+    position: relative;
+}
+
+#product1 pro:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0px;
+}
+#product .pro .des span{
+    color: grey;
+    font-size: 12px;
+}
+
+#product .pro .des i{
+    
+    color: rgba(243, 181, 25);
+    font-size: 12px;
+    
+}
+#product .pro .des h4{
+    padding-top: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+} */
+
+
+
+/* .alltext{
+    font-size: 30px; 
+    font-weight: 400;
+    color: white;
 }
 
 .sub_container{
@@ -68,4 +205,4 @@
     font-size: medium;
     font-family:sans-serif;
     font-weight: 3;
-}
+} */
